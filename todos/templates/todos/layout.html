@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="{% url "todos:todos.index" %}">Home</a></li>
+        </ul>
+    </nav>
+    <main>
+        {% block mainContent %}
+        {% endblock mainContent %}
+
+    </main>
+</body>
+</html>

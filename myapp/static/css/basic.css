@@ -1,0 +1,14 @@
+body{
+    background: black;
+}
+.navbar{
+    background: indigo;
+    padding: 10px 5px;
+    color: aqua;
+}
+.navbar ul a{
+    color: blanchedalmond;
+    background: indigo;
+    padding: 10px 5px;
+    
+}
